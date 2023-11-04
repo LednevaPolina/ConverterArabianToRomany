@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Введите число</h1>
+    <form asp-action="Convert" asp-controller="Home" method="get" class="input-group mb-3">
+        <input required name="number" type="number" class="form-control" placeholder="Введите число" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Конвертировать</button>
+    </form>
+</div>
